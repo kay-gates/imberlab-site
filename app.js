@@ -32,3 +32,7 @@
 //     easing: "easeOutExpo",
 //     delay: 1000
 //   });
+
+like look at me i'm code except actually i'm just words
+what is code?
+what are words if not code.
