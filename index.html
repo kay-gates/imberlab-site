@@ -9,11 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
+
+  <!-- default CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- internal file overrides or modifies bootstrap: -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/62f10eccfd.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -171,32 +173,38 @@
       </div>
   </section>
 
-<!-- Contact Us -->
+  <!-- Contact Us -->
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 id="contact">We want to hear from you!</h1>
-    <br>
-    <form action="mailto:hello@theimberlab.com" method="post" enctype="text/plain">
-      <label>Your Name </label>
-      <input type="text" name="yourName" value=""><br>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 id="contact">We want to hear from you!</h1>
       <br>
-      <label>Your Email </label>
-      <input type="email" name="yourEmail" value=""><br>
-      <br>
-      <label>Message </label><br>
-      <textarea name="yourMessage" rows="10" cols="30"></textarea>
-      <br>
-      <input type="submit" name="">
-    </form>
+      <form action="mailto:hello@theimberlab.com" method="post" enctype="text/plain">
+        <label>Your Name </label>
+        <input type="text" name="yourName" value=""><br>
+        <br>
+        <label>Your Email </label>
+        <input type="email" name="yourEmail" value=""><br>
+        <br>
+        <label>Message </label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" name="">
+      </form>
+    </div>
   </div>
-</div>
 
   <!-- JavaScript -->
+
+  <!-- boostrap bundle JS script: -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!-- internal JS file -->
   <script src="app.js"></script>
 
 </body>
