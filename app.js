@@ -36,3 +36,5 @@
 like look at me i'm code except actually i'm just words
 what is code?
 what are words if not code.
+
+stuff for coding which makes me feel smart 
